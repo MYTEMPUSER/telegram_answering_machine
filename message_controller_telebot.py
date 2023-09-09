@@ -12,7 +12,7 @@ valid_days_of_week = ["Mon", "Tue", "Wed", "Thu",  "Fri", "Sat", "Sun"]
 
 class message_controll():
 	def __init__(self):
-		self.app = telebot.TeleBot("6336485791:AAFUsEhb-Z_L67UqbtBPX7pnlV4wFIh90Gg")
+		self.app = telebot.TeleBot("")
 		self.DB_controler = DB_controler("kaban.db")		
 		self.set_commands_handler()
 		self.add_vacation_status = "Not_started" #Not_started - ничего не задано, Started - задано начало отпуска

@@ -20,8 +20,8 @@ def parce_time(time):
 
 class message_controll():
 	def __init__(self):
-		self.api_id = 21770637
-		self.api_hash = "9b941df2caee5b823de80d4af7b8fb10" 
+		self.api_id = 
+		self.api_hash = "" 
 		self.app = Client("account", api_hash=self.api_hash, api_id=self.api_id)
 		self.set_message_handler()
 		self.DB_controler = DB_controler("kaban.db")
